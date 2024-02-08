@@ -23,6 +23,7 @@ public:
 }
  void Car::stop() {
 //brakes can be done using paddles
+//brackes can be done using handbrake
     cout << "Stopping the car" << endl;
 }
 
