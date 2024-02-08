@@ -22,6 +22,7 @@ public:
     cout << "Starting the car" << endl;
 }
  void Car::stop() {
+//brakes can be done using paddles
     cout << "Stopping the car" << endl;
 }
 
