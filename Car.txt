@@ -21,14 +21,25 @@ public:
     void Car::start() {
     cout << "Starting the car" << endl;
 }
+
+void Car::accelerate(int speed) 
+{
+    cout << "Accelerating the car to " << speed << " mph" << endl;
+}
+
+
+ void Car::stop()
+ {
  void Car::stop() {
 //brakes can be done using paddles
 //brackes can be done using handbrake
+
     cout << "Stopping the car" << endl;
 }
 
-    void accelerate(int speed);
     void brake();
-    void turn(string direction);
+void Car::turn(string direction) {
+    cout << "Turning the car " << direction << endl;
+}
     void honk();
 };
