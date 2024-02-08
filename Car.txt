@@ -22,7 +22,10 @@ public:
     cout << "Starting the car" << endl;
 }
     void stop();
-    void accelerate(int speed);
+void Car::accelerate(int speed) {
+    cout << "Accelerating the car to " << speed << " mph" << endl;
+}
+
     void brake();
     void turn(string direction);
     void honk();
