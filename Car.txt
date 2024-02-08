@@ -33,7 +33,7 @@ void Car::accelerate(int speed)
  void Car::stop() {
 //brakes can be done using paddles
 //brackes can be done using handbrake
->>>>>>> feature_stop
+
     cout << "Stopping the car" << endl;
 }
 
