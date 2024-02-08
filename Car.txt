@@ -11,10 +11,16 @@ private:
 
 public:
     // Constructor
-    Car(string make, string model, int year);
+    Car(string make, string model, int year) {
+        this->make = make;
+        this->model = model;
+        this->year = year;
+    }
 
     // Function declarations
-    void start();
+    void Car::start() {
+    cout << "Starting the car" << endl;
+}
     void stop();
     void accelerate(int speed);
     void brake();
