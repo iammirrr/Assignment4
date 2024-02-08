@@ -38,6 +38,8 @@ void Car::accelerate(int speed)
 }
 
     void brake();
-    void turn(string direction);
+void Car::turn(string direction) {
+    cout << "Turning the car " << direction << endl;
+}
     void honk();
 };
