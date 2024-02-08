@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Car {
+private:
+    string make;   // Make of the car (e.g., Toyota, Honda, etc.)
+    string model;  // Model of the car (e.g., Camry, Civic, etc.)
+    int year;      // Year of manufacture
+
+public:
+    // Constructor
+    Car(string make, string model, int year);
+
+    // Function declarations
+    void start();
+    void stop();
+    void accelerate(int speed);
+    void brake();
+    void turn(string direction);
+    void honk();
+};
