@@ -21,9 +21,16 @@ public:
     void Car::start() {
     cout << "Starting the car" << endl;
 }
-    void stop();
-void Car::accelerate(int speed) {
+
+void Car::accelerate(int speed) 
+{
     cout << "Accelerating the car to " << speed << " mph" << endl;
+}
+
+
+ void Car::stop()
+ {
+    cout << "Stopping the car" << endl;
 }
 
     void brake();
